@@ -1,5 +1,4 @@
-# Default server configuration
-#
+
 server {
 	listen {{ http_port }} default_server;
 	listen [::]:80 default_server;
@@ -12,3 +11,4 @@ server {
 		try_files $uri $uri/ =404;
 	}
 }
+

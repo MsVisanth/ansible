@@ -1,6 +1,6 @@
 ---
 - name: Configure Custom Port
-  hosts: n3
+  hosts: n2
   become: yes
 
   tasks:

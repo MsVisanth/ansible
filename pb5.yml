@@ -47,6 +47,6 @@
 
   - name: Ensure App Deployed
     git:
-      repo: https://github.com/ravi2krishna/devops-2410.git
+      repo: https://github.com/MsVisanth/LoginApp.git
       dest: /var/www/html     
   

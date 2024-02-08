@@ -27,8 +27,7 @@
     file:
       path: /home/ubuntu/g21
       state: directory
-
-  - name: Ensure directory created
+- name: Ensure directory created
     file:
       path: /home/ubuntu/g22
       state: directory
